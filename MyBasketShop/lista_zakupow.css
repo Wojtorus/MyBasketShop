@@ -1,0 +1,166 @@
+#container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    font-size: 45px;
+    padding-top: 25px;
+    background-color: black;
+
+}
+
+#tlo
+{
+    padding-top: 1px;
+    width: 100%;
+    height: 600px;
+    background-image: url('https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+}
+
+#przywitanie_uzytkownika
+{
+    text-align: center;
+    font-size: 300%;
+}
+
+#nawigacja
+{
+    margin-top: 160px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#nawigacja a
+{
+    text-decoration: none;
+}
+
+#dodaj_produkt {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 150%;
+    width: 200px;
+    height: 195px;
+    color: black;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5px;
+    box-shadow: inset 2px 2px 6px black ;
+}
+
+#dodaj_produkt:hover
+{
+    box-shadow: inset -2px 4px 6px black ;
+    background-color: rgb(154, 201, 217);
+}
+
+.icon-cart-plus
+{
+    position: absolute;
+    top:50px;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#usun_produkt
+{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 150%;
+    width: 200px;
+    height: 195px;
+    color: black;
+    background-color: #ffb6c1;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5px;
+    box-shadow: inset 2px 2px 6px black ;
+}
+
+#usun_produkt:hover
+{
+    box-shadow: inset -2px 4px 6px black ;
+    background-color: #f7aaa3;
+    cursor: pointer;
+}
+
+.icon-trash
+{
+    position: absolute;
+    top:50px;
+    font-size: 80px;   
+}
+
+#pokaz_liste
+{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 150%;
+    width: 200px;
+    height: 195px;
+    color: black;
+    background-color: #90ee90;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5px;
+    box-shadow: inset 2px 2px 6px black ;
+}
+
+#pokaz_liste:hover
+{
+    box-shadow: inset -2px 4px 6px black ;
+    background-color:#7ad47a ;
+    cursor: pointer;
+}
+
+.icon-doc-text-inv
+{
+    position: absolute;
+    top:50px;
+    font-size: 80px;   
+    cursor: pointer;
+}
+
+#tlo a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: #90ee90;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    z-index: 100;
+}
+
+#tlo a:hover
+{
+    background-color: #63b563;
+}
+
+
+
+
+

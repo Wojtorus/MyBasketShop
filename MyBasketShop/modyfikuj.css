@@ -1,0 +1,135 @@
+#container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    font-size: 45px;
+    padding-top: 25px;
+    background-color: black;
+}
+
+#tlo
+{
+    padding-top: 1px;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    background-image: url('https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tresc
+{
+    margin-top: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#menu
+{
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 700px;
+    height: 210px;
+    border: 2px solid black;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#historia_tabeli
+{
+    border-bottom: 1px solid black;
+    width: 650px;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.wyswietl
+{
+    border-right: 1px solid black;
+    width: 162px;
+    text-align: center;
+    font-size: 115%;
+}
+
+.wyswietl:first-child
+{
+    border-left:1px solid black;
+}
+
+#edycja 
+{
+    width: 650px;
+    border-bottom: 1px solid black;
+    height: 60px;
+}
+
+#edycja form
+{
+    display: flex;
+    flex-direction: row; 
+}
+
+.produkt
+{
+    width: 160px;
+    height: 60px;
+    border-right: 1px solid black;
+}
+
+.produkt:first-child
+{
+    border-left:1px solid black;
+}
+
+input
+{
+    height: 60px;
+    width:160px ;
+    color: black;
+    text-align: center;
+    font-size: 110%;
+    outline: none;
+}
+
+input[type=submit]
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 60px;
+    width: 150px;
+    background-color: #6c296c;
+    font-size: 150%;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover
+{
+    cursor: pointer;
+    background-color: #864b86;   
+}
+

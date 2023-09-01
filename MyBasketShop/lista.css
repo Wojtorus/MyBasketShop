@@ -1,0 +1,138 @@
+#container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    font-size: 45px;
+    padding-top: 25px;
+    background-color: black;
+}
+
+#tlo
+{
+    padding-top: 1px;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    background-image: url('https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Menu
+{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 700px;
+    min-height: 440px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow-y: auto;
+}
+
+#Menu h2
+{
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    color: black;
+}
+
+#historia_tabeli
+{
+    border-bottom: 1px solid black;
+    width: 650px;
+    height: 30px;
+    margin-top: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Produkt
+{
+    border-right: 1px solid black;
+    width: 162px;
+    text-align: center;
+    font-size: 115%;
+}
+
+.Produkt:first-child
+{
+    border-left:1px solid black;
+}
+
+#lista
+{
+    width: 650px ;
+    min-height: 30px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#rzad
+{
+    width: 650px ;
+    min-height: 30px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.wyswietl
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+    width: 150px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+
+.wyswietl .icon-pencil
+{
+    padding: 0.5rem;
+    background-color: #ffa500;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: none;
+    font-size: 120%;
+}
+
+.wyswietl a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.wyswietl .icon-pencil:hover
+{
+    cursor: pointer;
+    background-color: red;
+}
+
+.wyswietl:first-child
+{
+    border-left: 1px solid black;
+}

@@ -1,0 +1,137 @@
+#container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    font-size: 45px;
+    padding-top: 25px;
+    background-color: black;
+
+}
+
+#Informacje
+{
+    background-color: gray;
+    height: 35px;
+    width: 100%;
+    border-top:2px solid rgb(5, 5, 101);
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-content: space-between;
+    padding: 10px;
+    text-align: center;  
+}
+
+#Menu
+{
+    height: 15px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    padding:10px ;
+    border: 2px solid black;
+}
+
+#Menu:hover
+{
+    cursor: pointer;
+    background-color:rgb(5, 5, 101) ;
+}
+
+#Kontakt
+{
+    float: left;
+    height: 15px;
+    width: 140px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+#Kontakt:hover
+{
+    cursor: pointer;
+    background-color:rgb(5, 5, 101) ;
+}
+
+ol
+{
+    height: 15px;
+    width: 140px;
+    padding: 10px;
+    align-items: center;
+    margin: 0;
+    list-style-type:none ;
+    display: block;
+    border: 2px solid black;
+    z-index: 100;
+    color: white;
+}
+
+ol > li 
+{
+    display: none;
+    background-color: grey;
+    position: relative; 
+    bottom: -7px;
+    left: -10px;
+    height: 15px;
+    width: 140px;
+    padding: 10px;
+    border-top: 2px solid rgb(5, 5, 101);
+}
+ol:hover
+{
+    cursor: pointer;
+    background-color: rgb(5, 5, 101);
+    display: block;
+}
+ol:hover > li
+{
+    display: block;
+}
+
+ol > li:hover
+{
+    background-color: rgb(5, 5, 101);
+    cursor: pointer;
+}
+
+a.titlelink
+{
+    color: white;
+    text-decoration: none;
+}
+
+#tlo
+{
+    width: 100%;
+    height: 600px;
+    background-image: url('https://1.bp.blogspot.com/-k3rtzfw-l4I/YU0SLCYg3BI/AAAAAAAABuw/Tq4H0_oSUg8NrGJAOyefbwP81v9EXrMmwCLcBGAsYHQ/s16000/Screenshot%2B%2528797%2529.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#tresc
+{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    height: 550px;
+    width: 700px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
